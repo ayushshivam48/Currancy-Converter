@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="dropdown from">
+                <label for="fromCurrency">From:</label>
+                <select name="from">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                <img src="" alt="Flag">
+            </div>
+            <div class="dropdown to">
+                <label for="toCurrency">To:</label>
+                <select name="to">
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+                <img src="" alt="Flag">
+            </div>
+            <div class="amount">
+                <input type="number" placeholder="Enter amount" value="1" min="1">
+            </div>
+            <button type="submit">Convert</button>
+        </form>
+        <div class="msg">Enter the amount and select currencies to convert.</div>
+    </div>
+
+    <script src="cc.js"></script>
+</body>
+</html>
 
